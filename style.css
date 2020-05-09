@@ -1,0 +1,454 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container {
+    background-color: rgb(33, 33, 189);
+    height:50px;
+     
+    
+    
+}
+
+.img1{
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 120px;
+}
+
+.img2{
+    padding: 10px;
+}
+
+.img3{
+    padding: 10px;
+}
+
+.img4{
+    padding: 10px;
+}
+
+.img5{
+    padding: 10px ;
+}
+
+.h1{
+    color: white;
+    display: inline;
+    font-size: 15px;
+    padding: 130px;
+    
+
+    
+    
+}
+
+.btn1{
+    padding: 5px;    
+}
+.btn2{
+    padding: 5px;
+}
+.btn3{
+    padding: 5px;
+}
+
+.container2{
+    
+    background-color: rgb(226, 236, 240);
+    height: 80px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    
+}
+
+ul li{
+    display: inline-block;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    border: 1px solid transparent;
+    transition: o.6s ease;
+}
+ul li.active a{
+    background-color: blue;
+    color: white;
+
+}
+
+ul li p:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+.main ul li.active a{
+    padding-bottom: 20px;
+}
+.logo{
+    padding-left: 150px;
+}
+
+.slider-1{
+    float: hidden;
+    height: 400px;
+    
+}
+
+.slider-1 figure div{
+    float: left;
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+.slider-1 figure img{
+    width: 100%;
+    float: left;
+}
+
+.slider-1 figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation: 20s ravi infinite;
+}
+
+@keyframes ravi{
+    0%{
+        left: 0%;
+    }
+    10%{
+        left: 0%;
+    } 12%{
+        left: -100% ;
+    } 22%{
+        left: -100%;
+    } 24%{
+        left: -200%;
+    } 34%{
+        left: -200%;
+    } 36%{
+        left: -300%;
+    } 46%{
+        left: -300%;
+    } 48%{
+        left: -400;
+    } 58%{
+        left: -400%;
+    } 60%{
+        left: -300%;
+    } 70%{
+        left: -300%;
+    } 72%{
+        left: -200%;
+    } 82%{
+        left: -200%;
+    } 84%{
+        left: -100%;
+    } 94%{
+        left: -100%;
+    } 96%{
+        left: 0%;
+    } 
+}
+
+.slider{
+    background-color: white;
+    color: black;
+    padding-right: 20px;
+    padding-left: 70px;
+    border: 1px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.slider p{
+    background-color: blue;
+    color: white;
+    
+}
+
+.para .intro {
+    padding-right: 350px;
+    font-size: 50px;
+    padding-bottom: 20px;
+    
+}
+
+.para .intro .intro1{
+    color: blue;
+}
+
+.para .intro .intro2{
+    color: green;
+}
+
+.line{
+    display: inline;
+    color: green;
+    width: 80px;
+    margin: 30px;
+    margin-bottom: 80px;
+    padding-left: 450px;
+
+}
+
+.para {
+    background-color: rgb(226, 236, 240);
+    color: black;
+    text-align: justify;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 120px;
+
+}
+
+.para.logo{
+    padding-left: 200px;
+    padding-top: 80PX;
+    padding-bottom: 120px;
+}
+
+
+ 
+.p1{
+    padding-bottom: 30px;
+    font-size: 20px;
+    padding-top: 70px;
+}
+.p2{
+    padding-bottom: 30px;
+    font-size: 20px;
+
+}
+.p3{
+    padding-bottom: 30px;
+    font-size: 20px;
+
+}
+.p4{
+    padding-bottom: 110px;
+    font-size: 20px;
+
+}
+
+
+.figures{
+    
+    background-color: blue;
+    color: white;
+    display: flex;
+    padding-bottom: 40px;
+    
+    
+    
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    height: 100px;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.container3{
+   background-color: rgb(226, 236, 240);
+
+}
+.container3 .card{
+     display: inline-block;
+     background-color: white;
+    margin: 22px;
+    width: 27%;
+     
+}
+.textCentre {
+    margin-top: 50px;
+}
+
+.container3 .line2{
+    display: inline;
+    color: green;
+    margin-left: 45%;
+    /*width: 80px;*/
+    /*margin: 30px;*/
+    /*margin-bottom: 80px;*/
+    /*padding-left: 700px;*/
+    margin-top: 50px;
+    
+    
+    
+}
+
+.head2{
+    padding-left: 500px;
+    padding-top: 60px;
+}
+
+.container3 ul {
+    padding-right: 400px;
+    font-size: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    
+}
+
+.container3 .li1{
+    color: blue;
+}
+
+.container3 .li2  {
+    color:green;
+}
+
+.cardmission{
+    height:  ;
+    width: 300px;
+    margin: 30px;
+}
+
+.container4{
+    background-color: white;
+    display: inline;
+}
+
+.head-mission{
+    color: navy;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+}
+
+.head-update{
+    color: navy;
+    
+
+}
+.gallery{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-right: 500px;
+}
+
+.gallery .glry1{
+    color: green;
+}
+.gallery .glry2{
+    color: blue;
+}
+
+.line3{
+    padding-top: 100px;
+    padding-left: 700px;
+    padding-bottom: 100px;
+
+}
+.gallery ul li .glry1{
+    color: blue;
+}
+.gallery ul li .glry2{
+    color: green;
+}
+
+.saylani-pic{
+     padding-bottom: 200px;
+}
+
+.saylani-pic .food{
+    padding-left: 120px;
+}
+
+ /* footer  */
+.footer{
+    background-color: black;
+    color: white;
+    height: 400px;
+    position: relative;
+}
+
+.footer-content{
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 600px;
+}
+
+.content-address{
+    padding-left: 200px;
+
+}
+.footer-info{
+    float: left;
+}
+
+.footer-info .info1{
+    /* padding-right: 1200px; */
+    padding-bottom: 20px;
+}
+
+.footer-info.info2{
+    padding-bottom: 20px;
+}
+.footer-info.info3{
+    padding-bottom: 20px;
+}
+
+.content1{
+    /* text-align: right; */
+    padding-left: 1000px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    
+}
+
+.connect{
+    font-size: 20px;
+}
+
+
+
+.footer .footer-bottom{
+    background-color: rgb(89, 89, 245);
+    color: white;
+    height: 40px;
+    text-align: left;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.row1{
+    width: 90%;
+    margin-left: 50px;
+    text-align: center;
+}
+.figuresContent{
+    text-align: center;
+    margin: 20px;
+    font-size: 23px;
+}
